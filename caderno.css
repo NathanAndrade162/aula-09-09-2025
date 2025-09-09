@@ -1,0 +1,49 @@
+/* sempre que chamamos uma tag pelo id, adicionamos o sinal"#" no início */
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://static.wikia.nocookie.net/villains-versos-galeria/images/8/89/Sergeant_James_Doakes.webp/revision/latest/thumbnail/width/360/height/360?cb=20231015183306&path-prefix=pt-br);
+    background-repeat: no-repeat;
+}
+p{
+    color: black;
+}
+#paragrafo{
+    color: rgb(244, 244, 248);
+}
+/* sempre que adicionamos uma tag pela classe, adicionamos o sinal de "." no início */
+.título{
+/* adiciona um sublinhado ao texto */
+ text-decoration: underline;   
+ font-size: 1.6rem;
+ /*  altera o tamanho da fonte, medidas em (px,rem) */
+ font-family: Arial, Helvetica, sans-serif;
+ /* altera a família da fonte */
+ font-weight: 400;
+}
+img{
+/* altera a altura da imagem */
+    height: 50% ;
+    /* altera a largura da imagem */
+    width: 50% ;
+}
+ul{
+/* altera o estilo da lista */
+list-style: none;
+display: flex;
+li{
+    /* cria um espaçamento externo */
+    padding: 10px;
+    /* altera o arredondamento de itens */
+    border-radius: 10px;
+    /* altera a cor de fundo */
+    background-color: aquamarine;
+    /* cria um espaçamento entre itens */
+    gap: 10px;
+
+a{
+text-decoration: none;
+
+}
+
+}
+}
